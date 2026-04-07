@@ -1,0 +1,23 @@
+project_name: mini-project-1
+owner: Micah Okemeje
+environment: deployment
+
+servers:
+  - name: webserver
+    ip_address: 192.168.56.20
+    role: web
+    specs:
+      cpu: 2
+      memory_gb: 1
+    ports:
+      - 8080
+
+ 
+  - name: dbserver
+    ip_address: 192.168.56.21
+    role: database
+    specs:
+      cpu: 2
+      memory_gb: 1
+    ports:
+      - 3306
