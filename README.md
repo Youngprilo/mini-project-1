@@ -67,4 +67,4 @@ mini-project-1/
 \```
 
 ## Author
-Micah — DevOps Engineer in Training
+Micah Okemeje — Site Reliability Engineer
